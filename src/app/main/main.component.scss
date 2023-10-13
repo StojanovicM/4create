@@ -1,0 +1,18 @@
+:host {
+  padding-top: 100px;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+
+  table {
+    margin-bottom: 25px;
+  }
+
+  button {
+    margin-left: auto;
+  }
+}

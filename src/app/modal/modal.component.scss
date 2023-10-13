@@ -1,0 +1,20 @@
+form {
+  display: flex;
+  flex-direction: column;
+  
+  .modal-button-wrapper {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    small {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
